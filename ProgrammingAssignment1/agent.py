@@ -16,6 +16,8 @@ class Agent:
         self.alph = alph                                     # will either be None if user does not specify or 0.1 if user does specify
         self.q_ests = np.zeros(self.num_arms)                # act value estimates
         self.num_times_act_chosen = np.zeros(self.num_arms)  # keep count of number times each action chosen when updating act value ests
+        self.c = 2                                           # c used in UCB approach
+        self.time_step = 0                                   # need t in UCB approach where t = current time step on in run through experiment 
 
     def eps_greedy_selection(self):
         '''
@@ -38,7 +40,28 @@ class Agent:
         Selects act w/ highest est value (exploits)
         '''
         return np.argmax(self.q_ests)
-
+        
+    def ucb_selection(self):
+        '''
+        Choose next action based on UCB approach
+        Use eq 2.10 given in book for A_t
+        if N_t(a) = 0 then act a = max act to use there
+        '''
+        self.time_step += 1              # increment time step on each time call method
+        ucbs = np.zeros(self.num_arms)   # want keep track of all values get from eq 2.10 so that can take, return argmax at end
+        
+        # want loop over all acts have
+        for act in range(self.num_arms):
+            # if num times chosen act = 0 then return that action as one to select
+            if self.num_times_act_chosen[act] == 0:
+                return act
+            else:
+                # eq 2.10 from book
+                ucbs[act] = self.q_ests[act] + (self.c * np.sqrt(np.log(self.time_step) / self.num_times_act_chosen[act]))
+        
+        # want return argmax of ucb values found from eq 2.10
+        return np.argmax(ucbs)
+        
     def act_val_method(self, act, reward):
         '''
         Update act-value ests based on chosen act, its reward
