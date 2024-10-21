@@ -78,7 +78,7 @@ def run_simulation(racetrack, N):
     agent.loop_each_eps(N)
     
     #get trajectories for each starting line pos from racetrack simulation, pass in the learned policy 
-    #from Agent class
+    #from Agent class where pi stores the optimal policy
     trajs = agent.racetrack.car_trajectories(agent.pi)
     
     #plot the trajectory results now!
