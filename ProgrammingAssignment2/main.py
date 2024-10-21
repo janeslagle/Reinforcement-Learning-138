@@ -159,7 +159,7 @@ if __name__ == '__main__':
         '#sssssssssssssssssssssss#########'
     ]
     
-    N = 500000
+    N = 300000
     #racetrack_one_trajs = run_simulation(racetrack_one, N)
     #print(racetrack_one_trajs)
     
