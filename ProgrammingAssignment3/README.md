@@ -5,4 +5,4 @@
 - **NumPy**: 2.1.1
 - **Matplotlib**: 3.9.2
 
-## To Run:
+## To Run
