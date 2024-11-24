@@ -4,9 +4,9 @@
 - **Python**: 3.11.5
 - **NumPy**: 2.1.1
 - **Jupyter core package requirements**:
-  **IPython**: 8.0.1
-  **ipykernel**: 6.7.0
-  **notebook**: 6.4.8
+  - **IPython**: 8.0.1
+  - **ipykernel**: 6.7.0
+  - **notebook**: 6.4.8
 
 ## To Run
 1. Open 'FrozenLake.ipynb' in jupyter notebook.
