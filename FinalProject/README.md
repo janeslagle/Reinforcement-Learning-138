@@ -2,13 +2,15 @@
 ## Punna Chowdhurry, Jane Slagle, and Diana Krmzian
 # Tufts CS 138 - Final Project
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## StructuRL Bridge Maintenance: Leveraging Hierarchical Reinforcement Learning
+[put one sentence description of our model here, also not sure if we want to include the word "hierarchial anymore"]
+
 ## Requirements
 - **Python**: 3.11.5
 - **Please refer to requirements.txt for the rest of the package requirements**
 - **You must run the code in the virtual environment described directly below**
-
-## StructuRL Bridge Maintenance: Leveraging Hierarchical Reinforcement Learning
-[put one sentence description of our model here, also not sure if we want to include the word "hierarchial anymore"]
 
 ## Getting Started
 
