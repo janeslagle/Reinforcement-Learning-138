@@ -2,8 +2,8 @@
 # Tufts CS 138 - Final Project
 
 
-## StructuRL Bridge Maintenance: Leveraging Hierarchical Reinforcement Learning
-[put one sentence description of our model here, also not sure if we want to include the word "hierarchial" anymore]
+## StructuRL Bridge Maintenance: Leveraging Reinforcement Learning
+[put one sentence description of our model here]
 
 ## Requirements
 - **Python**: 3.11.5
@@ -47,19 +47,21 @@ a simulation environment for bridge infrastrucutre maintenance on one bridge ove
  - condition of the bridge represented as an integer value, ranging between 0 and 100 where 100 is a perfect condition and 0 is the worst possible condition
  - the condition of the bridge is always initialized as 40 so that we may observe how our model either improves or worsens the condition based on the actions it chooses to take
 
-Action Space:
+Action Space: 
 3 possible actions related to bridge infrastructure mainteance tasks:
-- do nothing
-- maintenance
-- replace
+- do nothing [associated action cost of 0]
+- maintenance [associated action cost of 2]
+- replace [associated action cost of 5]
+The associated cost of each action is taken out of the budget.
 
-[could briefly describe step + reward function too and then I think this is more than enough]
+[briefly describe step + reward function too to finish this section out]
     
 **SMDP.py**:
 Q-learning based SMDP algorithm representing an agent that is able to interact with the InfraPlanner environment.
 [add little more detail, just in general]
 
 **DeepSARSA.py**
+[add brief description]
 
 **[deep learning file]**
 
