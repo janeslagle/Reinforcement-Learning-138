@@ -2,7 +2,6 @@
 ## Punna Chowdhurry, Jane Slagle, and Diana Krmzian
 # Tufts CS 138 - Final Project
 
------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## StructuRL Bridge Maintenance: Leveraging Hierarchical Reinforcement Learning
 [put one sentence description of our model here, also not sure if we want to include the word "hierarchial anymore"]
