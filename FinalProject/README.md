@@ -40,8 +40,8 @@ source .venv/bin/activate
 
 ## Code Overview
 
-**infra_planner.py**
- A simulation environment for bridge infrastrucutre maintenance on one bridge over a 100 year period. Budget constraints are incoporated with each action having a fixed associated cost. When determining the reward, how well the bridge is improving over time is also considered.
+**infra_planner.py**:
+a simulation environment for bridge infrastrucutre maintenance on one bridge over a 100 year period. Budget constraints are incoporated with each action having a fixed associated cost. When determining the reward, how well the bridge is improving over time is also considered.
 
  State Space:
  - condition of the bridge represented as an integer value, ranging between 0 and 100 where 100 is a perfect condition and 0 is the worst possible condition
