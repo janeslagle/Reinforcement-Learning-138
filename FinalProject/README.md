@@ -9,7 +9,7 @@
 
 ## Getting Started
 
-(1) To get started, download the code package
+(1) To get started, download and unzip the code package [input whatever we name our final zip file here]
 
 (2) Access the project folder via your terminal
 
