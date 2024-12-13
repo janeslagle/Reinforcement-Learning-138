@@ -11,7 +11,7 @@
 
 (1) To get started, download and unzip the code package [input whatever we name our final zip file here]
 
-(2) Access the project folder via your terminal
+(2) Access the project folder, [input whatever we call that folder here], via your terminal
 
 (3) Create a virtual environment
 
