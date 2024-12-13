@@ -36,7 +36,7 @@ source .venv/bin/activate
 
 ## To Run and view results
 
-(1)
+(1) [will put at end when we for sure finalize EVERYTHING in our main.py file]
 
 ## Code Overview
 
