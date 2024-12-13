@@ -52,6 +52,8 @@ Action Space:
 - do nothing
 - maintenance
 - replace
+
+[could briefly describe step + reward function too and then I think this is more than enough]
     
 **smdp.py**
 
