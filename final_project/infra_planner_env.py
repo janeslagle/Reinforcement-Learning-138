@@ -1,3 +1,7 @@
+# Team Maintenance Agents - Punna Chowdhurry, Jane Slagle, and Diana Krmzian
+# Tufts CS 138 - Final Project
+# infra_planner_env.py
+
 import numpy as np
 
 class infra_planner:
@@ -48,7 +52,7 @@ class infra_planner:
         action_duration = used with running env with an SMDP algorithm. SMDP allows actions to have 
         variable time step length, so this parameter accounts for that. It only takes affect when 
         is_smdp is set to True, it doesn't impact the functionality of non-SMDP algorithms that do not 
-        have variable time step lengths
+        have variable time step lengths, defaulted at 1 in case a user runs a non-SMDP algorithm with is_smdp set to True
 
         outputs:
         next_state = updated state of the bridge after taking that action
@@ -65,7 +69,7 @@ class infra_planner:
 
     reset(self) - reset the env to its initial state
         outputs:
-        state = re-initialized state condition of the bridge
+        state = re-initialized state (condition of the bridge)
     """
     def __init__(self, total_years=100, state_size=1, is_smdp=False):
         self.total_years = total_years
@@ -77,8 +81,8 @@ class infra_planner:
         self.actions = ['do nothing', 'maintenance', 'replace']
         self.is_smdp = is_smdp
     
-    def step(self, action, action_duration):
-        reward = -5        #reward penalty, make higher so will min time to complete actions
+    def step(self, action, action_duration=1):
+        reward = 0
         done = False       #keeps track of if episode is finished or not
 
         #if running env w/ SMDP algorithm then use action_duration to det how long action should take
@@ -150,12 +154,11 @@ class infra_planner:
         if mean_condt > prev_mean_condt:
             reward += 1    #reward for making progress
 
-
         #checks if agent overspent budget: if did then penalize it. otherwise reward it for having good budget management skills!
         if self.budget < 0:
-            reward -= 10
+            reward -= 5
         else:
-            reward += 5
+            reward += 2
 
         return reward
 
