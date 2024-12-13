@@ -3,7 +3,7 @@
 
 
 ## StructuRL Bridge Maintenance: Leveraging Hierarchical Reinforcement Learning
-[put one sentence description of our model here, also not sure if we want to include the word "hierarchial anymore"]
+[put one sentence description of our model here, also not sure if we want to include the word "hierarchial" anymore]
 
 ## Requirements
 - **Python**: 3.11.5
