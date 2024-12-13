@@ -6,18 +6,6 @@ import numpy as np
 
 class infra_planner:
     """
-    Represents a simulation environment for bridge infrastructure maintenance. We simulate making repairs on 
-    one bridge. We model the state of the bridge when taking possible infrastructure maintenance actions such 
-    as: do nothing, maintenance, and replace. The condition of the bridge either improves or worsens based on
-    the actions taken. 
-
-    We simulate a bridge with an initial condition value of 40, where 100 represents a bridge in perfect 
-    condition while 0 represents a bridge in the worst possible condition. We model how the maintenance actions
-    contribute to the improvement or deteroriation of the bridge over a 100 year period. We include budget 
-    constraints with each action having an associated cost with rewards being computed based on if the bridge
-    is improving over time as well as how well the agent is maintaining the budget.
-
-    ----------------------------------------------------------------------------------------------------------------
     init Parameters:
 
     total_years - total duration of the env simulation, defaulted at 100 years
@@ -25,7 +13,7 @@ class infra_planner:
     current_year - keeps track of the current year in the simulation, incremented at every step
 
     max_budget - represents the total starting budget available for maintenance actions for each year, initialized at 
-    10 for each year
+    100 for each year
 
     state_size - how many bridges we want to run the environment with, defaulted to 1
 
