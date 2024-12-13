@@ -9,32 +9,20 @@
 
 ## Getting Started
 
-To get started, open the terminal and clone the repo,
-
-```{.py}
-git clone https://github.com/CivML-PolyMtl/InfrastructuresPlanner.git
-```
+To get started, download the code package,
 
 Access the project folder,
-
-```{.py}
-cd InfrastructuresPlanner
-```
 
 Create a virtual environment,
 
 ```{.py}
 python -m venv .venv
-# Or,
-python3 -m venv .venv
 ```
 
 Activate the environment,
 
 ```{.py}
 source .venv/bin/activate
-# Or in windows,
-&.venv/scripts/activate.ps1
 ```
 
 Install the required packages by using the pip command in terminal,
