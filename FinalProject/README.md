@@ -4,8 +4,9 @@
 ## Requirements
 - **Python**: 3.11.5
 - **Please refer to requirements.txt for the rest of the package requirements**
+- **You must run the code in the virtual environment described directly below**
 
-  ## Getting Started
+## Getting Started
 
 To get started, open the terminal and clone the repo,
 
