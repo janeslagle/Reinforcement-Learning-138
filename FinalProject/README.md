@@ -31,7 +31,7 @@ source .venv/bin/activate
  pip install -r requirements.txt
 ```
 
-## To Run
+## To Run and view results
 
 (1)
 
