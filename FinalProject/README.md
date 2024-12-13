@@ -41,24 +41,23 @@ source .venv/bin/activate
 ## Code Overview
 
 **infra_planner.py**
+ A simulation environment for bridge infrastrucutre maintenance on one bridge over a 100 year period. Budget constraints are incoporated with each action having a fixed associated cost. When determining the reward, how well the bridge is improving over time is also considered.
 
+ State Space:
+ - condition of the bridge represented as an integer value, ranging between 0 and 100 where 100 is a perfect condition and 0 is the worst possible condition
+ - the condition of the bridge is always initialized as 40 so that we may observe how our model either improves or worsens the condition based on the actions it chooses to take
 
-
-    A simulation environment for bridge infrastructure maintenance
-    Represents a simulation environment for bridge infrastructure maintenance. We simulate making repairs on 
-    one bridge. We simulate taking maintenance with one bridge over a 100 year period.
-    State space = condition of one bridge represented as an integer value. 100 = perfect condition, 0 = worst possible condition
-    The condition of the bridge is always initialized as 40 so that we may observe how our model either improves or worsens based
-    on the actions taken.
+Action Space:
+3 possible actions related to bridge infrastructure mainteance tasks:
+(1) do nothing
+(2) maintenance
+(3) replace
 
     Action space = related to bridge infrastructure mainteance tasks. 3 possible actions: 
     (1) do  nothing
     (2) maintenance
     (3) replace
-
-    We include budget constraints with each action having a fixed associated cost with rewards being computed based on if 
-    the bridge is improving over time as well as how well the agent is maintaining the budget.
-
+    
 **smdp.py**
 
 **[sarsa file]**
