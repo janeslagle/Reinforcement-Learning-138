@@ -41,9 +41,9 @@ source .venv/bin/activate
 
 **smdp.py**
 
-**sarsa file**
+**[sarsa file]**
 
-**deep learning file**
+**[deep learning file]**
 
 **main.py**
 
