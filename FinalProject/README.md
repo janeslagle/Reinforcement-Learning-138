@@ -57,6 +57,7 @@ Action Space:
     
 **smdp.py**
 Q-learning based SMDP algorithm representing an agent that is able to interact with the infra_planner environment.
+[add little more detail, just in general]
 
 **[sarsa file]**
 
