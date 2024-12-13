@@ -56,6 +56,7 @@ Action Space:
 [could briefly describe step + reward function too and then I think this is more than enough]
     
 **smdp.py**
+Q-learning based SMDP algorithm representing an agent that is able to interact with the infra_planner environment.
 
 **[sarsa file]**
 
