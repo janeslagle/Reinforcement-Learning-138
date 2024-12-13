@@ -9,23 +9,23 @@
 
 ## Getting Started
 
-To get started, download the code package,
+(1) To get started, download the code package
 
-Access the project folder,
+(2) Access the project folder via your terminal
 
-Create a virtual environment,
+(3) Create a virtual environment
 
 ```{.py}
 python -m venv .venv
 ```
 
-Activate the environment,
+(4) Activate the environment
 
 ```{.py}
 source .venv/bin/activate
 ```
 
-Install the required packages by using the pip command in terminal,
+(5) Install the required packages by using the pip command in terminal
 
 ```{.py}
  pip install -r requirements.txt
