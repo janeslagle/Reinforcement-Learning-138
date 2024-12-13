@@ -49,14 +49,9 @@ a simulation environment for bridge infrastrucutre maintenance on one bridge ove
 
 Action Space:
 3 possible actions related to bridge infrastructure mainteance tasks:
-(1) do nothing
-(2) maintenance
-(3) replace
-
-    Action space = related to bridge infrastructure mainteance tasks. 3 possible actions: 
-    (1) do  nothing
-    (2) maintenance
-    (3) replace
+- (1) do nothing
+- (2) maintenance
+- (3) replace
     
 **smdp.py**
 
