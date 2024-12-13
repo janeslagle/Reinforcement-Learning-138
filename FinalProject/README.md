@@ -1,5 +1,4 @@
-# Team Maintenance Agents
-## Punna Chowdhurry, Jane Slagle, and Diana Krmzian
+# Team Maintenance Agents - Punna Chowdhurry, Jane Slagle, and Diana Krmzian
 # Tufts CS 138 - Final Project
 
 
