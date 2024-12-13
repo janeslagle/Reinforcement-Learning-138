@@ -40,7 +40,7 @@ source .venv/bin/activate
 
 ## Code Overview
 
-**infra_planner.py**:
+**InfraPlanner.py**:
 a simulation environment for bridge infrastrucutre maintenance on one bridge over a 100 year period. Budget constraints are incoporated with each action having a fixed associated cost. When determining the reward, how well the bridge is improving over time is also considered.
 
  State Space:
@@ -55,11 +55,11 @@ Action Space:
 
 [could briefly describe step + reward function too and then I think this is more than enough]
     
-**smdp.py**:
+**SMDP.py**:
 Q-learning based SMDP algorithm representing an agent that is able to interact with the infra_planner environment.
 [add little more detail, just in general]
 
-**[sarsa file]**
+**DeepSARSA.py**
 
 **[deep learning file]**
 
