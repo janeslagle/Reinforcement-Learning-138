@@ -56,7 +56,7 @@ Action Space:
 [could briefly describe step + reward function too and then I think this is more than enough]
     
 **SMDP.py**:
-Q-learning based SMDP algorithm representing an agent that is able to interact with the infra_planner environment.
+Q-learning based SMDP algorithm representing an agent that is able to interact with the InfraPlanner environment.
 [add little more detail, just in general]
 
 **DeepSARSA.py**
