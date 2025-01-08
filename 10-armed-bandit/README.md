@@ -1,7 +1,7 @@
 # CS 138 Programming Assignment 1 - Jane Slagle
 
 ## Problem Statement
-Exercise 2.5 from Chapter 2 of Sutton and Barto's _Reinforcement Learning_
+**Exercise 2.5** from **Chapter 2 of Sutton and Barto's _Reinforcement Learning_**
 
  Design and conduct an experiment to demonstrate the
  difficulties that sample-average methods have for nonstationary problems. Use a modified
