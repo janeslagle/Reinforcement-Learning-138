@@ -5,4 +5,4 @@
 - Programming Assignment 2
 - Programming Assignment 3
 
-The final project for the course is located at the StructuRL-Bridge-Maintenance repo: https://github.com/janeslagle/StructuRL-Bridge-Maintenance
+The final project for the course can be found in the StructuRL-Bridge-Maintenance repo: https://github.com/janeslagle/StructuRL-Bridge-Maintenance
